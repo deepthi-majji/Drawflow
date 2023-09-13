@@ -9,16 +9,16 @@
   --dfNodeBackgroundColor: #ffffff;
   --dfNodeTextColor: rgba(33, 1, 47, 1);
   --dfNodeBorderSize: 2px;
-  --dfNodeBorderColor: rgba(46, 5, 128, 1);
+  --dfNodeBorderColor: rgb(1, 1, 1);
   --dfNodeBorderRadius: 4px;
   --dfNodeMinHeight: 40px;
   --dfNodeMinWidth: 160px;
   --dfNodePaddingTop: 15px;
   --dfNodePaddingBottom: 15px;
   --dfNodeBoxShadowHL: 0px;
-  --dfNodeBoxShadowVL: 2px;
-  --dfNodeBoxShadowBR: 15px;
-  --dfNodeBoxShadowS: 2px;
+  --dfNodeBoxShadowVL: 0px;
+  --dfNodeBoxShadowBR: 0px;
+  --dfNodeBoxShadowS: 1px;
   --dfNodeBoxShadowColor: #000000;
 
   --dfNodeHoverBackgroundColor: #ffffff;
@@ -71,8 +71,8 @@
   --dfOutputHoverBorderColor: #000000;
   --dfOutputHoverBorderRadius: 50px;
 
-  --dfLineWidth: 5px;
-  --dfLineColor: rgba(37, 2, 98, 1);
+  --dfLineWidth: 3px;
+  --dfLineColor: rgb(102, 176, 215);
   --dfLineHoverColor: #4682b4;
   --dfLineSelectedColor: #43b993;
 
