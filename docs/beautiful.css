@@ -2,7 +2,7 @@
 :root {
   --dfBackgroundColor: #ffffff;
   --dfBackgroundSize: 0px;
-  --dfBackgroundImage: none;
+  --dfBackgroundImage: radial-gradient(#ffffff 1px, transparent 1px);
 
   --dfNodeType: flex;
   --dfNodeTypeFloat: none;
@@ -388,9 +388,8 @@ cursor: pointer;
   top: 40px;
   background: var(--background-color);
   background-size: 25px 25px;
-  background-image:
-   linear-gradient(to right, #f1f1f1 1px, transparent 1px),
-   linear-gradient(to bottom, #f1f1f1 1px, transparent 1px);
+  background-image: radial-gradient(black 1px, transparent 0);
+  background-position: -19px -19px;
 }
 
 @media only screen and (max-width: 768px) {
