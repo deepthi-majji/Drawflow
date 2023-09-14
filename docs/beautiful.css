@@ -47,7 +47,7 @@
 
   --dfInputBackgroundColor: #ffffff;
   --dfInputBorderSize: 2px;
-  --dfInputBorderColor: rgba(33, 7, 78, 1);
+  --dfInputBorderColor: rgb(0, 0, 0);
   --dfInputBorderRadius: 50px;
   --dfInputLeft: -27px;
   --dfInputHeight: 20px;
@@ -60,7 +60,7 @@
 
   --dfOutputBackgroundColor: #ffffff;
   --dfOutputBorderSize: 2px;
-  --dfOutputBorderColor: rgba(40, 6, 79, 1);
+  --dfOutputBorderColor: rgb(0, 0, 0);
   --dfOutputBorderRadius: 50px;
   --dfOutputRight: -3px;
   --dfOutputHeight: 20px;
@@ -114,6 +114,7 @@
   border-radius: var(--dfNodeBorderRadius);
   min-height: var(--dfNodeMinHeight);
   width: auto;
+  border-top: "20px solid blue";
   min-width: var(--dfNodeMinWidth);
   padding-top: var(--dfNodePaddingTop);
   padding-bottom: var(--dfNodePaddingBottom);
